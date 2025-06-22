@@ -1,10 +1,12 @@
-"""#classes
+# ----------------------
+# Basic Class Example
+# ----------------------
 class Color ():
     def black(self):
         print("black")
     def red(self):
         print("red")
-
+      
 
 color = Color()
 color.black()
@@ -15,9 +17,12 @@ print(color.blue)
 color2=Color()
 color2.black()
 color2.red()
-"""""
 
-"""#constructors
+# ...
+
+# ----------------------
+# Constructor Example
+# ----------------------
 class Circle():
     def __init__(self,r):
         self.r = r
@@ -33,17 +38,22 @@ print(circle.r)
 circle2 = Circle(3)
 circle2.diameter()
 print(circle2.r)
-"""
 
-"""Abstraction 
+# ----------------------
+# Abstraction Example
+# ----------------------
 class Animal():
     def move(self):
         pass
     def sound(self):
         pass
-"""
 
-#lab 
+
+# ...
+
+# ----------------------
+# Practice Lab: Student Class
+# ----------------------
 class Student() :
     def name(self):
         return" haidy" 
